@@ -6,3 +6,7 @@ cornell_movie_dialogs_corpus.zip
 .ipynb_checkpoints
 tensorflow_env/
 virtenv2/
+lib/
+include/
+bin/
+pip-selfcheck.json
