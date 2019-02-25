@@ -27,3 +27,7 @@ f = a.foo
 g = partial(A.foo, a)
 f()
 g()
+
+obj.foo(bar)
+obj.__class__.foo(obj, bar)
+type(obj).foo(bar)
