@@ -3,8 +3,8 @@ import pytest
 
 @pytest.fixture
 def smtp_connection():
-    # import smtplib
-    from smtplib import SMTP, ehlo
+    import smtplib
+    # from smtplib import SMTP, ehlo
     return smtplib.SMTP("smtp.gmail.com", 587, timeout=5)
 
 def test_ehlo(smtp_connection):
